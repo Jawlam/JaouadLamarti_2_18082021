@@ -9,7 +9,7 @@
 }
 
 
-.section-header
+header
 {
     
     display: flex;
@@ -51,13 +51,13 @@ a
 
 .section-logo
 {
-    padding-left: 50px;
+    padding-left: 15px;
     padding-top: 50px;
  
 
 }
 
-.lien-nav1 :hover
+.lien-nav :hover
 {
     border-top:3px solid;
     color: #0065fc;
@@ -66,7 +66,7 @@ padding-top: 47px;
 }
 
 
-.lien-nav1 
+.lien-nav
 {
 
     padding-top: 50px;
@@ -75,7 +75,7 @@ padding-top: 47px;
 }
 
 
-.lien-nav2 :hover
+.lien-nav :hover
 {
     
     border-top:3px solid;
@@ -83,7 +83,7 @@ padding-top: 47px;
     padding-top: 47px;
 
 }
-.lien-nav2 
+.lien-nav
 {   
     
     padding-top: 50px;
@@ -97,11 +97,133 @@ padding-top: 47px;
 
 .section-signup
 {
-    padding-top: 50px;
     padding-bottom: 20px;
-padding-right: 30px
-;
+    padding-right: 30px;
     color:#0065fc ;
 }
 
 
+                                    /* RECHERCHES ET FILTRES */
+                                    
+
+.recherches-filtres
+{
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+
+
+.bouton-rechercher
+{
+    font-size: 15px;
+    background-color: #0065fc;
+    padding: 18px;
+    color: white;
+    border-color: #0065fc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+}
+
+.bouton-rechercher :hover
+{
+    cursor:pointer;
+}
+
+form .fas 
+{
+    font-size: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-top: 19px;
+    padding-bottom: 21px;
+    border-color: #f2f2f2;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.recherche
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    border-style: solid;
+    border-top-color: #f2f2f2;
+    border-bottom-color: #f2f2f2;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.filtres
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+
+    padding-right: 400px;
+    font-size: 12px;
+
+}
+.texte-filtres
+{
+   background-position:center;
+   
+}
+
+
+.picto strong
+{
+
+    padding: 20px;
+}
+
+.picto 
+{
+    
+    text-align: center;
+    border: 2px solid #f2f2f2;
+    border-left: none;
+    border-radius: 100px;
+
+}
+
+.filtres .fas
+{
+    color: #0065fc;
+    font-size: 15px;
+    background-color: #deebff;
+    padding: 15px;
+    border-radius: 50px;
+    height: 18px;
+    width: 18px;
+    border-color: #deebff;
+}
+
+.infos
+{
+    padding-top: 45px;
+    padding-right: 900px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infos .fas
+{
+    text-align: center;
+    width: 13px;
+    height: 13px;
+    font-size: 13px;
+    color:#0065fc;
+    padding: 5px;
+    border: 1px solid #f2f2f2;
+    border-radius: 25px;
+}
