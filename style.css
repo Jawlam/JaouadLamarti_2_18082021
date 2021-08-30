@@ -420,3 +420,155 @@ aside
     transform: scale(1.1);
     border-radius: 20px;
 }
+
+                            /* AVTIVITES */
+                            
+                            
+                            
+.Activités
+{
+ 
+padding-top: 65px;
+padding-left: 50px;
+    
+
+   
+}
+
+.Activités h3
+{
+    
+    padding-bottom: 25px;
+}
+
+.VP
+{
+    
+    border-radius: 20px;
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 8px #555
+}
+
+
+.VP img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:250px ;
+    height: 390px;
+
+}
+
+.FdP
+
+{
+    
+        border-radius: 20px;
+        padding-bottom: 15px;
+        box-shadow: 1px 1px 8px #555
+}
+
+.FdP img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 250px;
+    height: 180px;
+}
+                
+
+.IdF
+{
+    
+    border-radius: 20px;
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 8px #555
+}
+
+.IdF img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 250px;
+    height: 100px;
+}
+
+.PNdC
+{
+    
+    border-radius: 20px;
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 8px #555
+}
+
+.PNdC img
+{
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 250px;
+    height: 390px;
+}
+
+.NDdlG
+{
+    
+    border-radius: 20px;
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 8px #555
+}
+
+.NDdlG img
+
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 250px;
+    height: 140px;
+}
+
+.PL
+{
+    
+    border-radius: 20px;
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 8px #555
+}
+
+.PL img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 250px;
+    height: 140px;
+
+}
+
+
+
+.AM
+{
+    
+    height: 428px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+
+
+.AM p
+{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+img:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
