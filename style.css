@@ -566,9 +566,35 @@ padding-left: 50px;
     font-size: 15px;
 }
 
+
 img:hover
 {
     cursor: pointer;
     transform: scale(1.1);
     border-radius: 20px;
+}
+
+                /* FOOTER */
+
+.FOOTER
+{
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.TXTFOOTER
+{
+    padding-top: 50px;
+    width:1110px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.TXTFOOTER p:hover
+{
+    cursor: pointer;
+    text-decoration:underline;
+
 }
