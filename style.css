@@ -92,7 +92,7 @@ header a
     color: #0065fc;
     padding-top: 50px;
     padding-bottom: 20px;
-    padding-right: 30px;
+    padding-right: 65px;
     color:#0065fc ;
 }
 
@@ -179,7 +179,7 @@ form .fas
     align-items: center;
     justify-content: space-between;
     padding-top: 25px;
-    padding-right: 500px;
+    padding-right: 410px;
     font-size: 12px;
     padding-left: 50px;
     
@@ -629,9 +629,8 @@ object-fit: cover;
     color: black;
 }
 
-.FOOTERINFO
+.FOOTERINFOS
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    
+line-height: 30px;   
 }
