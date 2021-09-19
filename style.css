@@ -1,4 +1,4 @@
-                                         /* HEADER */
+/* HEADER */
 
 *
 {
@@ -104,30 +104,30 @@ nav
 
                                     /* RECHERCHES ET FILTRES */
                                     
-
+main
+{
+    max-width: 1300px;
+    margin: auto;
+}
 .recherches-filtres
 {
-   margin: 25px
+   margin: 25px;
        
 }
 
-.search
-{
-    margin-top: 25px;
-}
+
 
 h3
 {
     font-size: 20px;
+    
 
 }
 
-.texte 
+.rechercher 
 {
-    font-size: 19px;
-    padding-top: 10px;
+    margin: 15px 0px;
 }
-
 
 
 .bouton-rechercher
@@ -148,7 +148,13 @@ h3
     cursor:pointer;
 }
 
-form .fas 
+.bouton-rechercher .fas
+{
+    display: none;
+}
+
+
+.fa-map-marker-alt
 {
     font-size: 15px;
     background-color: #f2f2f2;
@@ -179,10 +185,7 @@ form .fas
 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-height: 500px;
-    margin: 25px;
-    width: 900px;
+    
     font-size: 12px;
     
 }
@@ -197,11 +200,12 @@ form .fas
 
 .picto 
 {
-    
+    margin: 15px;
     text-align: center;
     border: 4px solid #f2f2f2;
     border-left: none;
     border-radius: 100px;
+    
 
 }
 
@@ -221,7 +225,7 @@ form .fas
 
 .infos
 {
-    margin: 25px;
+    
     
     font-size: 14px;
     display: flex;
@@ -259,23 +263,18 @@ form .fas
                                      
 .HébergementsMarseille
 {
-    padding-left: 50px;
-    padding-top: 30px;
+    
     display: flex;
     justify-content: space-between;
-    margin-right: 65px;
-    max-width: 1400px;
-    min-height: 430px;
+    
+    
     
 }
 
 
 .hebergements
 {
-    padding-top: 30px;
-    
-    min-height: 650px;
-    max-width: 850px;
+    width: 65%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -284,19 +283,21 @@ form .fas
 
 }
 
-.TitreH
+.hebergements h3
 {
-padding-left: 25px;
-width: 800px;
+margin: 25px;
+width: 100%;
 
 }
 
 .AP
 {
-    width: 800px;
+    margin: 25px;
+    width: 100%;
 }
 .hotel
 {
+    margin: 10px;
     box-shadow: 1px 1px 8px #555;
     width: 240px;
     height: 220px;
@@ -308,6 +309,8 @@ width: 800px;
     justify-content: space-between;
     
 }
+
+
 
 .hotel:hover
 {
@@ -325,6 +328,8 @@ width: 800px;
   
     
 }
+
+
 
 
 
@@ -368,10 +373,9 @@ width: 800px;
 
 aside
 {
-    max-width: 350px;
-    height: auto;
     
-    margin-left:25px;
+    
+    width: 30%;
     background-color: #f2f2f2;
     border-radius: 20px;
     display: flex;
@@ -381,8 +385,8 @@ aside
 
 .LPP
 {
-    width: 80%;
-    padding-top: 30px;
+    width: 100%;
+    margin: 25px;
     display: flex;
     justify-content: space-between;
     
@@ -427,12 +431,7 @@ aside
     color: black;
     
 }
-aside a {
-        width: auto;
-        padding: 10px;
-      
-        max-height: 30%;
-}
+
 aside a:hover
 {
     cursor: pointer;
@@ -443,16 +442,14 @@ aside a:hover
 
                             /* AVTIVITES */
                             
-                            
-                            
-.Activités
-{padding-top: 65px;
-padding-left: 50px;}
-
-.Activités h3
+.Activités  
 {
-    padding-left: 25px;
-    padding-bottom: 25px;
+    margin: 50px 0px;
+}              
+                            
+.TitreH
+{
+    margin:25px 0px;
 }
 
 .AM img
@@ -468,9 +465,10 @@ padding-left: 50px;}
 .colonne1
 {
     
-    
+    border-radius: 20px;
+    box-shadow:1px 1px 8px #555;
     width: 270px;
-    height: 420px;
+    height: 100%;
 }
 .colonne1 img
 {
@@ -493,8 +491,9 @@ object-fit: cover;
 
 {
         width: 270px;
-        height: 250px; 
-    
+        height: 100%; 
+        border-radius: 20px;
+        box-shadow:1px 1px 8px #555;
 }
 
 .bas-colonne2 img
@@ -508,8 +507,9 @@ object-fit: cover;
 .bas-colonne2
 {
     width: 270px;
-    height: 160px;
-   
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:1px 1px 8px #555;
 }
 
 
@@ -525,8 +525,9 @@ object-fit: cover;
 {
     
     width: 270px;
-    height: 420px;
-   
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:1px 1px 8px #555;
 }
 
 .haut-colonne4 img
@@ -540,8 +541,9 @@ object-fit: cover;
 {
    
     width: 270px;
-    height: 220px;
-   
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:1px 1px 8px #555;
 }
 
 
@@ -555,8 +557,9 @@ object-fit: cover;
 .bas-colonne4
 {
     width: 270px;
-    height: 190px;
-    
+    height: 100%;
+    border-radius: 20px;
+    box-shadow:1px 1px 8px #555;
 
 }
 
@@ -565,12 +568,10 @@ object-fit: cover;
 
 .AM
 {
-    max-width: 1400px;
-    min-height: 430px;
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 65px;
+    
 }
 
 .dc
@@ -580,12 +581,6 @@ object-fit: cover;
     height: 430px;
 }
 
-.AM a
-{
-    
-    border-radius: 20px;
-    box-shadow:1px 1px 8px #555;
-}
 
 .AM p
 {
@@ -608,18 +603,17 @@ object-fit: cover;
 .FOOTER
 {
     background-color: #f2f2f2;
-    margin-top: 50px;
-    height: 200px;
+    
 }
 
 .TXTFOOTER
 {
-    padding-top: 30px;
-    width:1110px;
+    
+    
     display: flex;
     justify-content: space-around;
     font-size: 15px;
-    height: 100px;
+    
 }
 
 .TXTFOOTER p:hover
@@ -645,21 +639,7 @@ line-height: 30px;
 
     
 
-@media screen and (max-width:1200px) {
 
-.AM
-{
-    max-width: 800px;
-    
-}
-
-.AM a
-{
-    margin-bottom: 25px;
-}
-.dc{
-margin-bottom: 25px;
-}                            
 
 @media screen and (max-width: 1100px) { 
 
@@ -674,49 +654,33 @@ margin-bottom: 25px;
     aside
     {
         min-width: 100%;
-        min-height: auto;
+        
         margin-bottom: 25px;
-        margin-left: 0px;
+        
         justify-content: center;
         
     }
 
     
-    .LPP
-    {
     
-        padding: 25px;
-        min-width: 100%;
-    }
-  .LPP h3
-  {
-      padding-left: 25px;
-  }
-    .LPP .fas
-    {
-        padding-right: 50px;
-    }
+  
+    
+        
     .hebergements
     {
     
+        
         min-width: 100%;
-      height: auto;
+      
     }
 
-    .hebergements h3 
-    {
-        padding: 25px
-    }
-
-    .hebergements a 
-    {
-        padding: 10px;
-    }
     
-    .AP
-    {
-        padding: 25px;
-    }
+    
+    
+   .hotel
+   {
+       margin: 15px;
+   }
 
     .HP
     {
@@ -731,40 +695,175 @@ margin-bottom: 25px;
         
     }
 
-    .FOOTER
-    {
-        max-width: 100%;
-        
-    }
-
-    .TXTFOOTER
-    {
-        max-width: 100%;
-        min-height: auto;
-    }
-
-    .filtres h3
-    {
-        width: 100%;
-    }
+   
     .filtres
     {
-        max-width: 350px;
-        min-height: 300px;
+        
         flex-wrap: wrap;
         flex-direction: row;
         
     }
 
 
-
-    
-
-
-@media screen and (max-width: 715px) {
-    aside
+    .colonne1
+    {
+        margin: 10px;
+        box-shadow: 1px 1px 8px #555;
+        width: 300px;
+        height: 220px;
+        background-color: white;
+        border: solid white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+        
+    .colonne1 img  
     {
         width: 100%;
+        height: 80%;
+        object-fit: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px ;
+    }
+     
+    .colonne3
+    {
+        
+        margin: 10px;
+        box-shadow: 1px 1px 8px #555;
+        width: 300px;
+        height: 220px;
+        background-color: white;
+        border: solid white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .haut-colonne2
+    {
+        margin: 10px;
+        box-shadow: 1px 1px 8px #555;
+        width: 300px;
+        height: 220px;
+        background-color: white;
+        border: solid white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bas-colonne2
+    {
+        margin: 10px;
+        box-shadow: 1px 1px 8px #555;
+        width: 300px;
+        height: 220px;
+        background-color: white;
+        border: solid white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .haut-colonne4
+    {
+    
+        margin: 10px;
+        box-shadow: 1px 1px 8px #555;
+        width: 300px;
+        height: 220px;
+        background-color: white;
+        border: solid white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bas-colonne4
+    {
+        margin: 10px;
+        box-shadow: 1px 1px 8px #555;
+        width: 300px;
+        height: 220px;
+        background-color: white;
+        border: solid white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .haut-colonne2 img 
+    {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px ;
+    }
+    .bas-colonne2 img 
+    {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px ;
+    }
+    .haut-colonne4 img 
+    {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px ;
+    }
+    .bas-colonne4 img 
+    {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px ;
+    }
+    
+    .colonne3 img 
+    {   width: 100%;
+        height: 80%;
+        object-fit: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px ; 
+    }
+
+
+.dc
+{
+    
+    flex-direction: row;
+    height: auto;
+}
+
+.AM
+{
+    
+    justify-content:center;
+    
+    flex-wrap: wrap;
+}
+
+.AM a 
+{
+    
+}
+@media screen and (max-width: 715px) {
+    
+    .filtres h3
+    {
+        width: 100%;
+    }
+    
+    aside
+    {
+        width:100%;
         flex-direction: column;
         justify-content: start;
     }
@@ -772,24 +871,24 @@ margin-bottom: 25px;
     aside a 
     {
        
-        min-width: 90%;
+        min-width: 95%;
         height: auto;
-    
+        
         padding: 0px;
     }
 
     .HP
     {
         
-        margin: 15px;
-        min-width: 100%;
+        margin: 10px;
+        width: 100%;
         max-height: 30%;
         justify-content:start;
     }
 
-    .LPP h3 
+    .LPP
     {
-        padding: 0px;
+        width: auto;
     }
 
     .Activités
@@ -800,16 +899,18 @@ margin-bottom: 25px;
     .AM
                             {
                             
-                            margin: 15px;
+                            
                              flex-direction: column;
                              
                             }
                                 
                             .dc
                             {
-                                justify-content:start;
-                                height: 490px;
-                                flex-direction: column;
+                                width: 100%;
+                                flex-wrap: wrap;
+
+                                
+                                
                                 
                                 
                             }
@@ -818,19 +919,17 @@ margin-bottom: 25px;
                                 .AM a 
                                 {
                                     
-                                    min-width: 90vw;
+                                    min-width: 100%;
                                     height: 220px;
                                     margin-bottom: 25px;
-                                    
-                                
-                                    
-                                    
                                 }
+
+
                             
                                 .colonne1
                                 {
                                     
-                                    min-width: 100%;
+                                    min-width: 95%;
                                     height: 220px;
                                     
                                 }
@@ -856,8 +955,9 @@ margin-bottom: 25px;
                                 .haut-colonne2
                             
                                 {
-                                    min-width: 100%;
+                                    min-width: 95%;
                                     height: 220px;
+                                    
                                 
                                 }
                             
@@ -871,7 +971,7 @@ margin-bottom: 25px;
                             
                                 .bas-colonne2
                                 {
-                                    min-width: 100%;
+                                    min-width: 95%;
                                     height: 220px;
                                 
                                
@@ -889,7 +989,7 @@ margin-bottom: 25px;
                                 .colonne3
                                 {
                                 
-                                    min-width: 100%;
+                                    min-width: 95%;
                                     height: 220px;
                                
                                 }
@@ -904,7 +1004,7 @@ margin-bottom: 25px;
                                 .haut-colonne4
                                 {   
                                
-                                    min-width: 100%;
+                                    min-width: 95%;
                                     height: 220px;
                                 }
                             
@@ -916,11 +1016,12 @@ margin-bottom: 25px;
                                     height: 80%;
                                     object-fit: cover;
                                 }
-                            
+                                
                                 .bas-colonne4
                                 {
-                                    min-width: 100%;
+                                    min-width: 95%;
                                     height: 220px;
+                                    
                                 
                             
                                 }
@@ -930,21 +1031,31 @@ margin-bottom: 25px;
 @media screen and (max-width:670px) { 
     
 
-    
-
-    .HébergementsMarseille 
-    {
-        margin: 0px;
-        padding: 0px;
-    }
-
-   
     .hebergements
     {
+      
+        flex-direction: column;
+        width: 100%;
+        justify-content: start;
         padding: 0px;
-        margin:0px
+        
         
     }
+
+    .hebergements a 
+{
+    width:100%;
+    
+}
+    .hotel 
+    {
+        min-width: 95%;
+        margin: 10px;
+        
+    }
+        
+
+    
     .AM
     {
         justify-content: center;
@@ -988,45 +1099,20 @@ margin-bottom: 25px;
     {
         padding:;
     }
-    
-   
-    
-    
-    
-    
-     
-    
-   
-  
-  
-
-  
-}
-
-@media screen and (max-width:531px) {
-    
-    .hebergements
-    {
       
-        flex-direction: column;
-        width: 90vw;
-        padding: 0px;
-    }
-    .hotel 
+}
+
+@media screen and (max-width:500px) {
+
+    .bouton-rechercher strong
     {
-        margin: 0px;
-            
-        min-width: 90vw;
+        display: none;
     }
 
+    .bouton-rechercher .fas
+    {
+        display: initial;
+    }
     
 }
 
-@media screen and(max-width:485px) {
-    .bouton-rechercher
-    {
-        background: url(<i class="fas fa-search"></i>);
-    }
-    
-    
-}
