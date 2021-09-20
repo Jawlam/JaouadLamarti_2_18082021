@@ -14,9 +14,10 @@ a
     text-decoration: none;
     color: black;
 }
+
 header
 {
-    
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,69 +37,47 @@ ul
 header a
 {
 
-    text-decoration: none;
+
     color: black;
-    padding-right: 35px;
-    padding-left: 35px;
+    
 }
 
 nav 
 {
+    
     display: flex;
+    align-items: center;
 }
 
 .section-menu
 {
-    
-    display: flex;
-    flex-wrap: wrap;  
-    
+    height: 100%;
+    align-items: center;
     
 }
+.lien-nav 
+{
+    border-top: 3px solid #d9d9d9;
+    border-bottom: 3px solid transparent;
+    padding: 35px;
+}
 
-
+.lien-nav:hover
+{
+    border-top-color: #0065fc;
+    
+}
 
 .section-logo
-{
-    padding-left: 50px;
-    padding-top: 50px;
- 
+{ 
+    padding: 0px 35px;
 
-}
-
-.lien-nav :hover
-{
-    border-top:3px solid;
-    color: #0065fc;
-    padding-top: 47px;
-
-}
-
-
-.lien-nav
-{
-
-    padding-top: 50px;
-    padding-bottom: 20px;
-
-}
-
-
-
-
-
-
-.signup
-{
-    
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-right: 65px;
-    
 }
 
 .sinscrire
 {
+
+    padding: 35px;
     color: #0065fc;
 }
 
@@ -673,10 +652,7 @@ line-height: 30px;
         min-width: 100%;
       
     }
-
-    
-    
-    
+        
    .hotel
    {
        margin: 15px;
@@ -854,8 +830,58 @@ line-height: 30px;
 {
     
 }
+
+@media screen and (max-width:977px) {
+
+.AM :nth-child(2)
+{
+    order: 1;
+}
+
+.AM a
+{
+   width: 50%; 
+}
+
+.colonne1
+{
+    width: 95%;
+}
+
+.colonne3
+{
+    width: 95%;
+}
+.dc
+{
+    width: 100%;
+}
+
+.haut-colonne2
+{
+    width: 95%;
+}
+.bas-colonne2
+{
+    width: 95%;
+}
+.haut-colonne4
+{
+    width: 95%;
+}
+.bas-colonne4
+{
+    width: 95%;
+}
+}
 @media screen and (max-width: 715px) {
+    header
+    {
+        
+    }
+
     
+
     .filtres h3
     {
         width: 100%;
@@ -1030,6 +1056,53 @@ line-height: 30px;
 
 @media screen and (max-width:670px) { 
     
+   
+    header
+    {
+        
+        display: block;
+    }
+    nav
+    {
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-end;
+        padding-top: 35px;
+    }
+
+    
+    
+    .section-logo
+    {
+        position: absolute;
+        padding: 20px;
+        
+    }
+    .section-menu
+    {
+        
+        width: 100%;
+    }
+
+    .lien-nav 
+{
+    width: 50%;
+    align-items: center;
+    border-top: none;
+    border-bottom: 3px solid #d9d9d9;
+    padding: 35px 0px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lien-nav:hover
+{
+    border-bottom-color: #0065fc;
+    border-top: transparent;
+}
+
+
 
     .hebergements
     {
@@ -1085,15 +1158,6 @@ line-height: 30px;
         
     }
 
-    header
-    {
-        
-    }
-
-    nav 
-    {
-        flex-direction: row-reverse;
-    }
     
     .signup
     {
