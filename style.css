@@ -2,237 +2,201 @@
 
 *
 {
-    margin: 0px;
-    font-family: "Raleway", "Sans serif";
-    list-style: none;
-    
-    
+margin: 0px;
+font-family: "Raleway", "Sans serif";
+list-style: none;    
 }
 
 a
 {
-    text-decoration: none;
-    color: black;
+text-decoration: none;
+color: black;
 }
 
 header
 {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
-
-
 
 ul
 {  
-    display: flex;
-    flex-flow: row wrap;
-    padding: 0;
-
+display: flex;
+flex-flow: row wrap;
+padding: 0;
 }
-
 
 header a
 {
-
-
-    color: black;
-    
+color: black;   
 }
 
 nav 
 {
-    
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
 }
 
 .section-menu
 {
-    height: 100%;
-    align-items: center;
-    
+height: 100%;
+align-items: center; 
 }
+
 .lien-nav 
 {
-    border-top: 3px solid #d9d9d9;
-    border-bottom: 3px solid transparent;
-    padding: 35px;
+border-top: 3px solid #d9d9d9;
+border-bottom: 3px solid transparent;
+padding: 35px;
 }
 
 .lien-nav:hover
 {
-    border-top-color: #0065fc;
-    
+border-top-color: #0065fc;  
 }
 
 .section-logo
 { 
-    padding: 0px 35px;
-
+padding: 0px 35px;
 }
 
 .sinscrire
 {
-
-    padding: 35px;
-    color: #0065fc;
+padding: 35px;
+color: #0065fc;
 }
 
                                     /* RECHERCHES ET FILTRES */
                                     
 main
 {
-    max-width: 1300px;
-    margin: auto;
+max-width: 1300px;
+margin: auto;
 }
+
 .recherches-filtres
 {
-   margin: 25px;
-       
+margin: 25px;     
 }
-
-
 
 h3
 {
-    font-size: 20px;
-    
-
+font-size: 20px;
 }
 
 .rechercher 
 {
-    margin: 15px 0px;
+margin: 15px 0px;
 }
 
 
 .bouton-rechercher
 {
-    font-size: 15px;
-    background-color: #0065fc;
-    padding: 18px;
-    color: white;
-    border-color: #0065fc;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    
-
+font-size: 15px;
+background-color: #0065fc;
+padding: 18px;
+color: white;
+border-color: #0065fc;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
 }
 
 .bouton-rechercher :hover
 {
-    cursor:pointer;
+cursor:pointer;
 }
 
 .bouton-rechercher .fas
 {
-    display: none;
+display: none;
 }
-
 
 .fa-map-marker-alt
 {
-    font-size: 15px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    
-    border-color: #f2f2f2;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+font-size: 15px;
+background-color: #f2f2f2;
+padding: 20px; 
+border-color: #f2f2f2;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
 }
 
 .recherche
 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-    padding-right: 30px;
-    padding-top: 16px;
-    padding-bottom: 17px;
-    border-style: solid;
-    border-top-color: #f2f2f2;
-    border-bottom-color: #f2f2f2;
-    border-left: none;
-    border-right: none;
-    
+text-align: center;
+font-weight: bold;
+font-size: 15px;
+padding-right: 30px;
+padding-top: 16px;
+padding-bottom: 17px;
+border-style: solid;
+border-top-color: #f2f2f2;
+border-bottom-color: #f2f2f2;
+border-left: none;
+border-right: none;
 }
 
 .filtres
 {
-    display: flex;
-    align-items: center;
-    
-    font-size: 12px;
-    
+display: flex;
+align-items: center;
+font-size: 12px; 
 }
 
 
 .picto strong
 {
-    font-size: 15px;
-    padding: 15px;
-    
+font-size: 15px;
+padding: 15px;  
 }
 
 .picto 
 {
-    margin: 15px;
-    text-align: center;
-    border: 4px solid #f2f2f2;
-    border-left: none;
-    border-radius: 100px;
-    
-
+margin: 15px;
+text-align: center;
+border: 4px solid #f2f2f2;
+border-left: none;
+border-radius: 100px;
 }
-
-
 
 .filtres .fas
 {
-    color: #0065fc;
-    font-size: 15px;
-    background-color: #deebff;
-    padding: 15px;
-    border-radius: 50px;
-    height: 18px;
-    width: 18px;
-    border-color: #deebff;
+color: #0065fc;
+font-size: 15px;
+background-color: #deebff;
+padding: 15px;
+border-radius: 50px;
+height: 18px;
+width: 18px;
+border-color: #deebff;
 }
 
 .infos
 {
-    
-    
-    font-size: 14px;
-    display: flex;
-    
-    align-items: center;
+font-size: 14px;
+display: flex;
+align-items: center;
 }
 
 .infos .fas
 {
-    text-align: center;
-    width: 13px;
-    height: 13px;
-    font-size: 13px;
-    color:#0065fc;
-    padding: 5px;
-    border: 1px solid #f2f2f2;
-    border-radius: 25px;
-    margin: 15px;
-    
+text-align: center;
+width: 13px;
+height: 13px;
+font-size: 13px;
+color:#0065fc;
+padding: 5px;
+border: 1px solid #f2f2f2;
+border-radius: 25px;
+margin: 15px;   
 }
-
-
 
 .filtres a:hover
 {
-    cursor:pointer;
-	transform: scale(1.1);
-    
+cursor:pointer;
+transform: scale(1.1);  
 }
 
 
@@ -242,218 +206,193 @@ h3
                                      
 .HébergementsMarseille
 {
-    
-    display: flex;
-    justify-content: space-between;
-    
-    
-    
+display: flex;
+justify-content: space-between;  
 }
 
 
 .hebergements
 {
-    width: 65%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-radius: 20px;
-    background-color: #f2f2f2;
-
+width: 65%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+border-radius: 20px;
+background-color: #f2f2f2;
 }
 
 .hebergements h3
 {
 margin: 25px;
 width: 100%;
-
 }
 
 .AP
 {
-    margin: 25px;
-    width: 100%;
+margin: 25px;
+width: 100%;
 }
+
 .hotel
 {
-    margin: 10px;
-    box-shadow: 1px 1px 8px #555;
-    width: 240px;
-    height: 220px;
-    background-color: white;
-    border: solid white;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+margin: 10px;
+box-shadow: 1px 1px 8px #555;
+width: 240px;
+height: 220px;
+background-color: white;
+border: solid white;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;  
 }
 
 
 
 .hotel:hover
 {
-    transform: scale(1.05);
+transform: scale(1.05);
 }
 
 .hotel img
 {   
-    width: 100%;
-    height: 60%;
-    object-fit: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px ;
-    
-  
-    
+width: 100%;
+height: 60%;
+object-fit: cover;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px ;    
 }
-
-
-
-
 
 .hotel p
 {
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    padding-left: 15px;
+color: black;
+text-decoration: none;
+font-size: 15px;
+padding-left: 15px;
 }
 
 .fa-star
 {
-    font-size: 10px;
-    color: #0065fc;
-    
+font-size: 10px;
+color: #0065fc;  
 }
+
 .etoile-vide
 {
-    color: #d9d9d9;;
+color: #d9d9d9;;
 }
 .etoile
 {
-    padding-left: 15px;
+padding-left: 15px;
 }
 
 .AP :hover
 {
-    cursor: pointer;
+cursor: pointer;
 }
 
 .hotel a:hover
 {
-    cursor: pointer;
-    transform:scale(1.1);
-    border-radius: 20px;
-    
+cursor: pointer;
+transform:scale(1.1);
+border-radius: 20px;   
 }
 
                                         /* ASIDE */
 
 aside
 {
-    
-    
-    width: 30%;
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+width: 30%;
+background-color: #f2f2f2;
+border-radius: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .LPP
 {
-    width: 100%;
-    margin: 25px;
-    display: flex;
-    justify-content: space-between;
-    
+width: 100%;
+margin: 25px;
+display: flex;
+justify-content: space-between;    
 }
 
 .LPP .fas
 {
-    font-size: 20px;
+font-size: 20px;
 }
 
 .HP
 {
-    height: 140px;
-    width:280px ;
-    display: flex;
-    border: solid white;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 1px 1px 8px #555;
-    display: flex;
-    justify-content: space-between;
+height: 140px;
+width:280px ;
+display: flex;
+border: solid white;
+border-radius: 20px;
+background-color: white;
+box-shadow: 1px 1px 8px #555;
+display: flex;
+justify-content: space-between;
 }
 
 .HP img
 {
-    width: 40%;
-    height: 100%;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    
+width: 40%;
+height: 100%;
+object-fit: cover;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;    
 }
 
 .TXTHP
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
-    color: black;
-    
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+font-size: 15px;
+padding-left: 15px;
+padding-top: 15px;
+color: black;    
 }
 
 aside a:hover
 {
-    cursor: pointer;
-    transform: scale(1.05);
-    border-radius: 20px;
-
+cursor: pointer;
+transform: scale(1.05);
+border-radius: 20px;
 }
 
                             /* AVTIVITES */
                             
 .Activités  
 {
-    margin: 50px 0px;
+margin: 50px 0px;
 }              
                             
 .TitreH
 {
-    margin:25px 0px;
+margin:25px 0px;
 }
 
 .AM img
 {
-
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    
-   
-    
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;  
 }
 
 .colonne1
 {
-    
-    border-radius: 20px;
-    box-shadow:1px 1px 8px #555;
-    width: 270px;
-    height: 100%;
+border-radius: 20px;
+box-shadow:1px 1px 8px #555;
+width: 270px;
+height: 100%;
 }
 .colonne1 img
 {
-    width:100%;
-    height: 375px;
-    object-fit: cover;
+width:100%;
+height: 375px;
+object-fit: cover;
 }
 
 
@@ -462,154 +401,136 @@ aside a:hover
 width: 100%;
 height: 195px;
 object-fit: cover;
-
 }
 
-
 .haut-colonne2
-
 {
-        width: 270px;
-        height: 100%; 
-        border-radius: 20px;
-        box-shadow:1px 1px 8px #555;
+width: 270px;
+height: 100%; 
+border-radius: 20px;
+box-shadow:1px 1px 8px #555;
 }
 
 .bas-colonne2 img
 {
-    width: 100%;
-    height: 105px;
-    object-fit: cover;
-
+width: 100%;
+height: 105px;
+object-fit: cover;
 }           
 
 .bas-colonne2
 {
-    width: 270px;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow:1px 1px 8px #555;
+width: 270px;
+height: 100%;
+border-radius: 20px;
+box-shadow:1px 1px 8px #555;
 }
-
 
 .colonne3 img
 {
-    width:100%;
-    height: 375px;
-    object-fit: cover;
+width:100%;
+height: 375px;
+object-fit: cover;
 }
-
 
 .colonne3
 {
-    
-    width: 270px;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow:1px 1px 8px #555;
+width: 270px;
+height: 100%;
+border-radius: 20px;
+box-shadow:1px 1px 8px #555;
 }
 
 .haut-colonne4 img
 {
-    width: 100%;
-    height: 165px;
-    object-fit: cover;
+width: 100%;
+height: 165px;
+object-fit: cover;
 }
 
 .haut-colonne4
 {
-   
-    width: 270px;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow:1px 1px 8px #555;
+width: 270px;
+height: 100%;
+border-radius: 20px;
+box-shadow:1px 1px 8px #555;
 }
 
 
 
 .bas-colonne4 img
 {
-    width: 100%;
-    height: 135px;
-    object-fit: cover;
+width: 100%;
+height: 135px;
+object-fit: cover;
 }
+
 .bas-colonne4
 {
-    width: 270px;
-    height: 100%;
-    border-radius: 20px;
-    box-shadow:1px 1px 8px #555;
-
+width: 270px;
+height: 100%;
+border-radius: 20px;
+box-shadow:1px 1px 8px #555;
 }
-
-
-
 
 .AM
 {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    
+align-items: center;
+display: flex;
+justify-content: space-between;   
 }
 
 .dc
-{   display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 430px;
+{   
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 430px;
 }
-
 
 .AM p
 {
-    padding: 15px;
-    padding-left: 25px;
-    font-size: 15px;
-    color: black;
+padding: 15px;
+padding-left: 25px;
+font-size: 15px;
+color: black;
 }
-
 
 .AM a:hover
 {
-    cursor: pointer;
-    transform: scale(1.05);
-    border-radius: 20px;
+cursor: pointer;
+transform: scale(1.05);
+border-radius: 20px;
 }
 
                 /* FOOTER */
 
 .FOOTER
 {
-    background-color: #f2f2f2;
-    
+background-color: #f2f2f2;    
 }
 
 .TXTFOOTER
 {
-    
-    
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
+display: flex;
+justify-content: space-around;
+font-size: 15px;
     
 }
 
 .TXTFOOTER p:hover
 {
-    cursor: pointer;
-    text-decoration:underline;
-
+cursor: pointer;
+text-decoration:underline;
 }
 
 .TXTFOOTER p
 {
-    color: black;
+color: black;
 }
 
 .FOOTERINFOS
-{
-    
+{    
 line-height: 30px;   
 }
 
@@ -622,561 +543,474 @@ line-height: 30px;
 
 @media screen and (max-width: 1100px) { 
 
-    .HébergementsMarseille
-    {
-        flex-direction: column-reverse;
-        
-        justify-content: space-around;
-    
-        
-    }
-    aside
-    {
-        min-width: 100%;
-        
-        margin-bottom: 25px;
-        
-        justify-content: center;
-        
-    }
+.HébergementsMarseille
+{
+flex-direction: column-reverse;
+justify-content: space-around;       
+}
 
-    
-    
-  
-    
-        
-    .hebergements
-    {
-    
-        
-        min-width: 100%;
-      
-    }
-        
-   .hotel
-   {
-       margin: 15px;
-   }
-
-    .HP
-    {
-        max-width: 100%;
-    }
-    aside a 
-    {
-        max-width: 30%;
-        padding: 10px;
-      
-        height: auto;
-        
-    }
-
+aside
+{
+min-width: 100%;
+margin-bottom: 25px;
+justify-content: center;
+}
    
-    .filtres
-    {
-        
-        flex-wrap: wrap;
-        flex-direction: row;
-        
-    }
+.hebergements
+{
+min-width: 100%;
+}
 
+.hotel
+{
+margin: 15px;
+}
 
-    .colonne1
-    {
-        margin: 10px;
-        box-shadow: 1px 1px 8px #555;
-        width: 300px;
-        height: 220px;
-        background-color: white;
-        border: solid white;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
+.HP
+{
+max-width: 100%;
+}
+    
+aside a 
+{
+max-width: 30%;
+padding: 10px;
+height: auto;
+}
+
+.filtres
+{
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.colonne1
+{
+margin: 10px;
+box-shadow: 1px 1px 8px #555;
+width: 300px;
+height: 220px;
+background-color: white;
+border: solid white;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+}
         
-        
-    }
-        
-    .colonne1 img  
-    {
-        width: 100%;
-        height: 80%;
-        object-fit: cover;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px ;
-    }
+.colonne1 img  
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px ;
+}
      
-    .colonne3
-    {
-        
-        margin: 10px;
-        box-shadow: 1px 1px 8px #555;
-        width: 300px;
-        height: 220px;
-        background-color: white;
-        border: solid white;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-    }
+.colonne3
+{
+margin: 10px;
+box-shadow: 1px 1px 8px #555;
+width: 300px;
+height: 220px;
+background-color: white;
+border: solid white;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+}
     
-    .haut-colonne2
-    {
-        margin: 10px;
-        box-shadow: 1px 1px 8px #555;
-        width: 300px;
-        height: 220px;
-        background-color: white;
-        border: solid white;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-    .bas-colonne2
-    {
-        margin: 10px;
-        box-shadow: 1px 1px 8px #555;
-        width: 300px;
-        height: 220px;
-        background-color: white;
-        border: solid white;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-    .haut-colonne4
-    {
+.haut-colonne2
+{
+margin: 10px;
+box-shadow: 1px 1px 8px #555;
+width: 300px;
+height: 220px;
+background-color: white;
+border: solid white;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+}
     
-        margin: 10px;
-        box-shadow: 1px 1px 8px #555;
-        width: 300px;
-        height: 220px;
-        background-color: white;
-        border: solid white;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-    .bas-colonne4
-    {
-        margin: 10px;
-        box-shadow: 1px 1px 8px #555;
-        width: 300px;
-        height: 220px;
-        background-color: white;
-        border: solid white;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-    }
+.bas-colonne2
+{
+margin: 10px;
+box-shadow: 1px 1px 8px #555;
+width: 300px;
+height: 220px;
+background-color: white;
+border: solid white;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+}
     
-    .haut-colonne2 img 
-    {
-        width: 100%;
-        height: 80%;
-        object-fit: cover;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px ;
-    }
-    .bas-colonne2 img 
-    {
-        width: 100%;
-        height: 80%;
-        object-fit: cover;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px ;
-    }
-    .haut-colonne4 img 
-    {
-        width: 100%;
-        height: 80%;
-        object-fit: cover;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px ;
-    }
-    .bas-colonne4 img 
-    {
-        width: 100%;
-        height: 80%;
-        object-fit: cover;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px ;
-    }
+.haut-colonne4
+{
+margin: 10px;
+box-shadow: 1px 1px 8px #555;
+width: 300px;
+height: 220px;
+background-color: white;
+border: solid white;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+}
     
-    .colonne3 img 
-    {   width: 100%;
-        height: 80%;
-        object-fit: cover;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px ; 
-    }
+.bas-colonne4
+{
+margin: 10px;
+box-shadow: 1px 1px 8px #555;
+width: 300px;
+height: 220px;
+background-color: white;
+border: solid white;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+}
+    
+.haut-colonne2 img 
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px ;
+}
+    
+.bas-colonne2 img 
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px ;
+}
+    
+.haut-colonne4 img 
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px ;
+}
+    
+.bas-colonne4 img 
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px ;
+}
+    
+.colonne3 img 
+{   
+width: 100%;
+height: 80%;
+object-fit: cover;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px ; 
+}
 
 
 .dc
 {
-    
-    flex-direction: row;
-    height: auto;
+flex-direction: row;
+height: auto;
 }
 
 .AM
 {
-    
-    justify-content:center;
-    
-    flex-wrap: wrap;
-}
-
-.AM a 
-{
-    
+justify-content:center;
+flex-wrap: wrap;
 }
 
 @media screen and (max-width:977px) {
 
 .AM :nth-child(2)
 {
-    order: 1;
+order: 1;
 }
 
 .AM a
 {
-   width: 50%; 
+width: 50%; 
 }
 
 .colonne1
 {
-    width: 95%;
+width: 95%;
 }
 
 .colonne3
 {
-    width: 95%;
+width: 95%;
 }
 .dc
 {
-    width: 100%;
+width: 100%;
 }
 
 .haut-colonne2
 {
-    width: 95%;
+width: 95%;
 }
 .bas-colonne2
 {
-    width: 95%;
+width: 95%;
 }
 .haut-colonne4
 {
-    width: 95%;
+width: 95%;
 }
 .bas-colonne4
 {
-    width: 95%;
+width: 95%;
 }
 }
 @media screen and (max-width: 715px) {
-    header
-    {
-        
-    }
-
+   
+.filtres h3
+{
+width: 100%;
+}
     
-
-    .filtres h3
-    {
-        width: 100%;
-    }
+aside
+{
+width:100%;
+flex-direction: column;
+justify-content: start;
+}
     
-    aside
-    {
-        width:100%;
-        flex-direction: column;
-        justify-content: start;
-    }
+aside a 
+{
+min-width: 95%;
+height: auto;
+padding: 0px;
+}
+
+.HP
+{
+margin: 10px;
+width: 100%;
+max-height: 30%;
+justify-content:start;
+}
+
+.LPP
+{
+width: auto;
+}
+
+.Activités
+{
+width: 100%;
+padding: 0px;
+}
     
-    aside a 
-    {
-       
-        min-width: 95%;
-        height: auto;
-        
-        padding: 0px;
-    }
-
-    .HP
-    {
-        
-        margin: 10px;
-        width: 100%;
-        max-height: 30%;
-        justify-content:start;
-    }
-
-    .LPP
-    {
-        width: auto;
-    }
-
-    .Activités
-    {
-        width: 100%;
-        padding: 0px;
-    }
-    .AM
-                            {
-                            
-                            
-                             flex-direction: column;
-                             
-                            }
+.AM
+{
+flex-direction: column;
+}
                                 
-                            .dc
-                            {
-                                width: 100%;
-                                flex-wrap: wrap;
-
+.dc
+{
+width: 100%;
+flex-wrap: wrap;
+}
+                            
+.AM a 
+{
+min-width: 100%;
+height: 220px;
+margin-bottom: 25px;
+}
+                            
+.colonne1
+{
+min-width: 95%;
+height: 220px;
+}
+                            
+.colonne1 img
+{   
+width: 100%;
+height: 80%;
+object-fit: cover;
+}
+                                                        
+.haut-colonne2 img
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+}
+                                                        
+.haut-colonne2
+{
+min-width: 95%;
+height: 220px;
+}
+                            
+.bas-colonne2 img
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+}           
+                            
+.bas-colonne2
+{
+min-width: 95%;
+height: 220px;
+}
+                                                        
+.colonne3 img
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+}
+                                                        
+.colonne3
+{
+min-width: 95%;
+height: 220px;
+}
+                            
+.haut-colonne4 img
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+}
+                            
+.haut-colonne4
+{                                  
+min-width: 95%;
+height: 220px;
+}
+                                                        
+.bas-colonne4 img
+{
+width: 100%;
+height: 80%;
+object-fit: cover;
+}
                                 
-                                
-                                
-                                
-                            }
-
-                            
-                                .AM a 
-                                {
-                                    
-                                    min-width: 100%;
-                                    height: 220px;
-                                    margin-bottom: 25px;
-                                }
-
-
-                            
-                                .colonne1
-                                {
-                                    
-                                    min-width: 95%;
-                                    height: 220px;
-                                    
-                                }
-                            
-                                .colonne1 img
-                                {   
-                                    
-                                    width: 100%;
-                                    height: 80%;
-                                    object-fit: cover;
-                                }
-                            
-                            
-                                .haut-colonne2 img
-                                {
-                                    width: 100%;
-                                    height: 80%;
-                                    object-fit: cover;
-                            
-                                }
-                            
-                            
-                                .haut-colonne2
-                            
-                                {
-                                    min-width: 95%;
-                                    height: 220px;
-                                    
-                                
-                                }
-                            
-                                .bas-colonne2 img
-                                {
-                                    width: 100%;
-                                    height: 80%;
-                                    object-fit: cover;
-                            
-                                }           
-                            
-                                .bas-colonne2
-                                {
-                                    min-width: 95%;
-                                    height: 220px;
-                                
-                               
-                                }
-                            
-                            
-                                .colonne3 img
-                                {
-                                    width: 100%;
-                                    height: 80%;
-                                    object-fit: cover;
-                                }
-                            
-                            
-                                .colonne3
-                                {
-                                
-                                    min-width: 95%;
-                                    height: 220px;
-                               
-                                }
-                            
-                                .haut-colonne4 img
-                                {
-                                    width: 100%;
-                                    height: 80%;
-                                    object-fit: cover;
-                                }
-                            
-                                .haut-colonne4
-                                {   
-                               
-                                    min-width: 95%;
-                                    height: 220px;
-                                }
-                            
-                            
-                            
-                                .bas-colonne4 img
-                                {
-                                    width: 100%;
-                                    height: 80%;
-                                    object-fit: cover;
-                                }
-                                
-                                .bas-colonne4
-                                {
-                                    min-width: 95%;
-                                    height: 220px;
-                                    
-                                
-                            
-                                }
+.bas-colonne4
+{
+min-width: 95%;
+height: 220px;
+}
     
 }
 
 @media screen and (max-width:670px) { 
     
    
-    header
-    {
-        
-        display: block;
-    }
-    nav
-    {
-        width: 100%;
-        flex-wrap: wrap-reverse;
-        justify-content: flex-end;
-        padding-top: 35px;
-    }
-
-    
-    
-    .section-logo
-    {
-        position: absolute;
-        padding: 20px;
-        
-    }
-    .section-menu
-    {
-        
-        width: 100%;
-    }
-
-    .lien-nav 
+header
 {
-    width: 50%;
-    align-items: center;
-    border-top: none;
-    border-bottom: 3px solid #d9d9d9;
-    padding: 35px 0px ;
-    display: flex;
-    justify-content: center;
+display: block;
+}
 
+nav
+{
+width: 100%;
+flex-wrap: wrap-reverse;
+justify-content: flex-end;
+padding-top: 35px;
+}
+
+.section-logo
+{
+position: absolute;
+padding: 20px;
+}
+
+.section-menu
+{
+width: 100%;
+}
+
+.lien-nav 
+{
+width: 50%;
+align-items: center;
+border-top: none;
+border-bottom: 3px solid #d9d9d9;
+padding: 35px 0px ;
+display: flex;
+justify-content: center;
 }
 
 .lien-nav:hover
 {
-    border-bottom-color: #0065fc;
-    border-top: transparent;
+border-bottom-color: #0065fc;
+border-top: transparent;
 }
 
-
-
-    .hebergements
-    {
-      
-        flex-direction: column;
-        width: 100%;
-        justify-content: start;
-        padding: 0px;
-        
-        
-    }
-
-    .hebergements a 
+.hebergements
 {
-    width:100%;
-    
+flex-direction: column;
+width: 100%;
+justify-content: start;
+padding: 0px;
 }
-    .hotel 
-    {
-        min-width: 95%;
-        margin: 10px;
-        
-    }
-        
 
+.hebergements a 
+{
+width:100%;  
+}
+
+.hotel 
+{
+min-width: 95%;
+margin: 10px;
+}
+        
+.AM
+{
+justify-content: center;
+}
+
+.FOOTER
+{
+height: 100%;
+width: 100%;
+}
     
-    .AM
-    {
-        justify-content: center;
-    
-        
-    }
-
-    .FOOTER
-    {
-       
-        height: 100%;
-        width: 100%;
-    }
-    .TXTFOOTER
-    {
-        margin-left: 25px;
-        width: 100%;
-        min-height: 350px;
-        flex-direction: column;
-        justify-content: space-around;
-
-    }
+.TXTFOOTER
+{
+margin-left: 25px;
+width: 100%;
+min-height: 350px;
+flex-direction: column;
+justify-content: space-around;
+}
  
-    .hebergements
-    {
-        background-color: white;
-        
-    }
-
-    
-    .signup
-    {
-        padding:;
-    }
+.hebergements
+{
+background-color: white;
+}
       
 }
 
 @media screen and (max-width:500px) {
 
-    .bouton-rechercher strong
-    {
-        display: none;
-    }
+.bouton-rechercher strong
+{
+display: none;
+}
 
-    .bouton-rechercher .fas
-    {
-        display: initial;
-    }
+.bouton-rechercher .fas
+{
+display: initial;
+}
     
 }
 
